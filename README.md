@@ -12,7 +12,7 @@ To decompress, use `pdecompress`:
 
 ## Compression ratios
 
-The table below compares compression ratios on two common datasets for data compression Calgary and Canterbury. 
+The table below compares compression ratios on two common datasets for data compression Calgary and Canterbury. The numbers in the columns are compressed sizes in bytes by the corresponding compressor.
 It's worth noting that pzip is a simple and unoptimized program but has achieved a comparable peformance to a commercial standard like gzip.
 
 | File	                        | gzip	    | pzip      |
