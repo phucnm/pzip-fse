@@ -84,7 +84,7 @@ The program runs with 1 default block size parameter 900K bytes. The first two s
 - Papers: https://arxiv.org/abs/1311.2540, http://www2.ift.ulaval.ca/~dadub100/files/ISIT19.pdf.
 - 
 #### 3. Bitstream format
-- Due to limited time left after FSE implementation, I only come up with a simple bistream format. The bitstream contains blocks.
+I came up with a simple bistream format. The bitstream contains blocks.
 - The block format is as follows
     - last_block (1 byte): indicates if this is the last block
     - compression_mode (1 byte): indicates if the block is compressed by FSE or just a RLE stream (in case FSE fails).
